@@ -23,7 +23,7 @@ def run():
     os.system("echo standing by")
     if (getLatestCommitID() != getCurrentlyUpCommitID()):
         writeCommitID()
-        # os.system("bash ~/update-portfolio-repos/csclub.sh")
+    os.system("bash ~/update-portfolio-repos/csclub.sh")
 
 
 run()
